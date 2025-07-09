@@ -1,0 +1,65 @@
+@import url(./global.css);
+
+body{
+    background:linear-gradient(to bottom, #F8FBFF 80%, #BFCAD8 100%);
+    width: 100%; height: 100%;
+    font-family: "Space Grotesk" Arial, Helvetica, sans-serif;
+}
+
+h1, h2 , h3 , h4 ,h5 {
+    font-family: 'Anton', Impact, 'Haettenschweiler', 'Arial Narrow Bold';
+}
+
+section, aside, div{
+    background:linear-gradient(to top, #F8FBFF 1%, #BFCAD8 100%);
+    padding:2%; margin:3% 0%;
+    border-radius:20px;
+}
+
+p, a{
+    font-family: "Space Grotesk", sans-serif;
+}
+
+main{
+    padding: 13%;
+    font-size: 3em;
+    height:10%; width: 10%;
+    display: flex; align-items: center; justify-content: center;
+}
+main>h1{
+    text-align: center;
+}
+
+#firstSection{
+    padding:0% 13%;
+    display:flex; flex-direction: column; position: relative;
+}
+
+#firstSection>h2{
+    font-size: 2em;
+    text-transform: uppercase;
+}
+
+.firstSectionContent{
+    background: none;
+    z-index: 2;
+}
+
+.buttonContinue{
+    display:flex; align-items: center;
+    background: none;
+}
+
+.buttonContinue>a{
+    background:linear-gradient(to bottom, #ea7f28 80%, #383939 100%);
+    padding:2%;
+    display:flex; align-items: center; gap:10px;
+}
+
+#backgroundText{
+    display:block; position: absolute;
+    font-size: 10em;  text-transform: uppercase; font-style: italic;
+    z-index: 1;
+    left:0; bottom: -15%;
+    opacity: 10%;
+}
