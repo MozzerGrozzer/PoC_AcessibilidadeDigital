@@ -8,11 +8,28 @@ body{
 
 h1, h2 , h3 , h4 ,h5 {
     font-family: 'Anton', Impact, 'Haettenschweiler', 'Arial Narrow Bold';
+    text-transform: uppercase;
 }
 
 section{
     background:linear-gradient(to top, #F8FBFF 1%, #BFCAD8 100%);
     border-radius:20px;
+    padding:4% 13%;
+    margin: 3% 5%; 
+    position: relative;
+}
+
+aside{
+    background:linear-gradient(to bottom, #ea7f28 80%, #383939 100%); color: white;
+    border-radius:20px;
+    padding:4%;
+    margin: 3% 5%; 
+    position: relative;
+    width: 50%;
+}
+
+div{
+    z-index: 3;
 }
 
 p, a{
@@ -35,7 +52,6 @@ main>img{
   white-space: nowrap;
   position: relative;
 }
-
 
 .marqueeText {
   display: inline-block;
@@ -61,12 +77,15 @@ main>img{
 
 #firstSection>h2{
     font-size: 2em;
-    text-transform: uppercase;
 }
 
 .firstSectionContent{
     background: none;
     z-index: 2;
+}
+
+.buttonContainer{
+    display:flex; flex-direction: row-reverse; gap:50px;
 }
 
 .buttonContinue{
@@ -78,14 +97,21 @@ main>img{
     background:linear-gradient(to bottom, #ea7f28 80%, #383939 100%);
     padding:2%;
     display:flex; align-items: center; gap:10px;
+    z-index: 2;
 }
 
 #backgroundText{
     display:block; position: absolute;
-    font-size: 10em;  text-transform: uppercase; font-style: italic;
+    font-size: 4em;  text-transform: uppercase; font-style: italic;
     z-index: 1;
-    left:0; bottom: -15%;
+    left:10%; bottom: -15%;
     opacity: 10%;
 }
 
 /* Page 1 one first */
+
+/* page 2 second two */
+
+.secondPageAsides{
+    display:flex; flex-direction: row;
+}
