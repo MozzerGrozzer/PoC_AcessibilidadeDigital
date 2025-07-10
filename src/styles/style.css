@@ -32,8 +32,13 @@ div{
     z-index: 3;
 }
 
-p, a{
+p, a, em, li{
     font-family: "Space Grotesk", sans-serif;
+}
+
+ul{
+    display:grid; grid-template-columns: 1fr 1fr;
+    padding:3%;
 }
 
 main{
@@ -85,7 +90,7 @@ main>img{
 }
 
 .buttonContainer{
-    display:flex; flex-direction: row-reverse; gap:50px;
+    display:flex; flex-direction: row-reverse;align-items: center;justify-self: center; gap:50px;
 }
 
 .buttonContinue{
@@ -104,8 +109,9 @@ main>img{
     display:block; position: absolute;
     font-size: 4em;  text-transform: uppercase; font-style: italic;
     z-index: 1;
-    left:10%; bottom: -15%;
+    left:10%; bottom: 0%;
     opacity: 10%;
+    cursor:default;
 }
 
 /* Page 1 one first */

@@ -9,7 +9,9 @@
 html{
     font-size: 16px;
     line-height: 1.6;
-}
+} /*MozzerGrozzer:*/ /*Por algum motivo esotérico, */
+/*centralizar o display:flex no html quebra a página totalmente*/
+/*Eu realmente queria entender pq krls isso acontece???*/
 
 body{
     display:flex;
