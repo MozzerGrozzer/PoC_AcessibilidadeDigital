@@ -46,6 +46,86 @@
         <h3 id="backgroundText">Tags &lt;/&gt;</h3>
     </section>
     <section>
-        <p>Além dessas </p>
+        <p>Além dessas tags básicas, temos códigos e especificações que podem ser utilizadas nessa navegação:</p>
+        <ul>
+            <li>lang="pt-br" | Define o idioma do site</li>
+            <li>aria-label="" | Rótulos para elementos interativos</li>
+            <li>role="" | Define papéis semânticos específicos</li>
+            <li>alt="" | Texto alternativo para imagens</li>
+            <li>tabindex="0" | Faz elementos não focáveis ficarem acessíveis</li>
+            <li>aria-pressed="" | Indica o estado de botões tipo toggle</li>
+            <li>aria-hidden="true" | Esconde elementos de leitores de tela</li>
+        </ul>
         <h3 id="backgroundText">Acessibilidade</h3>
+    </section>
+    <section>
+        <article class="codeCssExemplo" tabindex="0">
+            <h2>1. Tipografia visível</h2>
+            <p>Sempre use contraste suficiente entre o texto e fundo</p>
+            <div class="preCode">
+                <pre><code>
+                    /* Exemplo ruim */
+                    color: #999;
+                    background-color: #ccc;
+                    <p id="exemploUm">exemplo</p>
+
+                    /* Exemplo bom */
+                    color: #111;
+                    background-color: #fff;
+
+                    <p id="exemploDois">exemplo</p>
+                </code></pre>
+            </div>
+        </article>
+        <article class="codeCssExemplo" tabindex="0">
+            <h2>2. Exemplo de foco visível com CSS </h2>
+            <p>Tamanho mínimo recomendado: 16px (1rem)</p>
+            <div class="preCode">
+                <pre><code>
+                    body {
+                    font-size: 1rem;
+                    line-height: 1.6;
+                    font-family: system-ui, sans-serif;
+                    }
+                </code></pre>
+            </div>
+        </article>
+        <article class="codeCssExemplo" tabindex="0">
+            <h2>3.Tamanho e espaçamento de fonte</h2>
+            <p>Sempre mostre visualmente o foco de elementos interativos</p>
+            <div class="preCode">
+                <pre><code>
+                    :focus-visible {
+                    outline: 2px solid #000;
+                    outline-offset: 2px;
+                    }
+                </code></pre>
+            </div>
+        </article>
+        <article class="codeCssExemplo" tabindex="0">
+            <h2>4.Ícones e cores com propósito</h2>
+            <p>Use ícones, texto ou padrões junto da cor</p>
+            <div class="preCode">
+                <pre><code>
+                    // Exemplo bom: botão de alerta
+                    &lt;button class="alert" aria-label="Erro: acesso negado"&gt;
+                    ⚠ Acesso negado
+                    &lt;/button&gt;
+                </code></pre>
+            </div>
+        </article>
+        <article class="codeCssExemplo" tabindex="0">
+            <h2>5.Tema escuro e preferências do usuário</h2>
+            <p>Use @media (prefers-color-scheme: dark) para adaptar o tema ao usuário</p>
+            <div class="preCode">
+                <pre><code>
+                    @media (prefers-color-scheme: dark) {
+                    body {
+                        background-color: #000;
+                        color: #fff;
+                    }
+                    }
+                </code></pre>
+            </div>
+        </article>
     </section>
