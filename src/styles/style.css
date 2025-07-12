@@ -151,3 +151,12 @@ main>img{
 #exemploDois{color:#111;background-color:#fff}
 
 /* page subjective */
+
+.acessibilityToolsNav{
+    display:flex; flex-direction: column; justify-content: center; align-items:flex-start;
+}
+/* third page 3 */
+
+#socialNav{
+    display:flex; align-items: center; gap:40px;
+}
