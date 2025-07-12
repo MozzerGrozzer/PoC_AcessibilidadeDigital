@@ -91,6 +91,7 @@ main>img{
 
 .buttonContainer{
     display:flex; flex-direction: row-reverse;align-items: center;justify-self: center; gap:50px;
+    margin:2%;
 }
 
 .buttonContinue{
@@ -121,3 +122,30 @@ main>img{
 .secondPageAsides{
     display:flex; flex-direction: row;
 }
+
+/* page objective */
+
+#cssExemple{
+    display: flex; justify-content: center; align-items: center;
+}
+
+.cssExempleGrid{
+    display:grid; justify-content: center; align-items: center;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+}
+
+.codeCssExemplo{
+    width: 100%;
+    padding: 5%; margin: 2%;
+    border:2px solid gray;
+}
+
+.preCode{
+    display: flex;justify-content: center;align-items: center;
+    width: 100%;
+    background-color: black; color:greenyellow;
+}
+
+#exemploUm{color:#999;background-color: #ccc;}
+#exemploDois{color:#111;background-color:#fff}
