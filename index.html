@@ -25,7 +25,7 @@
             <h2>Design acessível e boas práticas em CSS</h2>
             <p>Quais as recomendações ideais para a criação de um design realmente acesível para todos?</p>
             <div class="buttonContinue">
-                <a href="./src/pages/firstPage.html">Continuar <span class="material-symbols-outlined">
+                <a href="./src/pages/firstPage.html" id="buttonThatsAnimate">Continuar <span class="material-symbols-outlined">
                 arrow_outward
                 </span></a>
             </div>
@@ -33,4 +33,12 @@
         <h3 id="backgroundText">introduction</h3>
     </section>
 </body>
+
+<script>
+document.getElementById('buttonThatsAnimate').addEventListener('click', function(e) {
+  e.preventDefault();
+  this.classList.add('buttonAnim');
+  setTimeout(() => {window.location = this.href;}, 500);});
+</script>
+
 </html>

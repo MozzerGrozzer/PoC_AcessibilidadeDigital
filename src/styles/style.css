@@ -115,6 +115,12 @@ main>img{
     cursor:default;
 }
 
+.buttonAnim{animation: blinking 0.1s infinite}
+@keyframes blinking{
+    0%{ color: black;}
+    50%{color: white;}
+    100%{ color: black;}
+}
 /* Page 1 one first */
 
 /* page 2 second two */
