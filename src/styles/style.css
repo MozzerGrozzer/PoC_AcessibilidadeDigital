@@ -166,3 +166,40 @@ main>img{
 #socialNav{
     display:flex; align-items: center; gap:40px;
 }
+
+
+/* design stuff */
+
+#logoK{
+    display:flex; position: absolute;
+    z-index: -1;
+    width: 30%;
+    right: 0; top: 0;
+    opacity: 0.2;
+    margin:2% 5%;
+}
+
+.sideStuff>p:nth-child(1){
+    display: flex; position: absolute;
+    left:-7px;top: 10%;
+    background-color: #424d82;
+    padding:2% 1%; margin-top:1%;
+}
+.sideStuff>p:nth-child(2){
+    display: flex; position: absolute;
+    left:-20px;top: 17%;
+    background-color: #d82323;
+    padding:2% 1%; margin-top:1%;
+}
+.sideStuff>p:nth-child(3){
+    display: flex; position: absolute;
+    left:-7px;top: 24%;
+    background-color: #424d82;
+    padding:2% 1%; margin-top:1%;
+}
+.sideStuff>p:nth-child(4){
+    display: flex; position: absolute;
+    left:-7px;top: 34%;
+    background-color: #424d82;
+    padding:7% 1%; margin-top:1%;
+}
