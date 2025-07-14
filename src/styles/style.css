@@ -179,6 +179,14 @@ main>img{
     margin:2% 5%;
 }
 
+.endCredit{
+    display:flex;flex-direction: column;justify-content: center;align-items: center;
+}
+
+#logoMozzer{
+    width: 220%;
+}
+
 .sideStuff>p:nth-child(1){
     display: flex; position: absolute;
     left:-7px;top: 10%;
