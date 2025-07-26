@@ -208,6 +208,40 @@ article>h2>strong{color:#d82323}
     padding:0px 5%;
 }
 
+#functionExemple{
+    display: flex; align-items: center; justify-content: center; gap:80px;
+    border-radius:20px;
+    padding:4% 13%; margin: 3% 5%; 
+    position: relative;
+    background-color: white; border: 3px solid #424d82
+}
+
+#functionAnimate{width: 20%; animation: function 4s infinite;}
+
+@keyframes function {
+    0%{transform: rotate(0deg); opacity:100%;}
+    16%{transform: rotate(90deg); opacity: 100%;}
+    18%{transform: rotate(90deg); opacity: 0%;}
+    20%{transform: rotate(90deg); opacity: 100%;}
+    22%{transform: rotate(90deg); opacity: 0%;}
+    25%{transform: rotate(90deg); opacity: 100%;}
+    42%{transform: rotate(180deg); opacity: 100%;}
+    44%{transform: rotate(180deg); opacity: 0%;}
+    46%{transform: rotate(180deg); opacity: 100%;}
+    48%{transform: rotate(180deg); opacity: 0%;}
+    50%{transform: rotate(180deg); opacity: 100%;}
+    64%{transform: rotate(270deg); opacity: 100%;}
+    66%{transform: rotate(270deg); opacity: 0%;}
+    68%{transform: rotate(270deg); opacity: 100%;}
+    72%{transform: rotate(270deg); opacity: 0%;}
+    75%{transform: rotate(270deg); opacity: 100%;}
+    94%{transform: rotate(360deg); opacity: 100%;}
+    96%{transform: rotate(360deg); opacity: 100%;}
+    96%{transform: rotate(360deg); opacity: 0%;}
+    98%{transform: rotate(360deg); opacity: 100%;}
+    100%{transform: rotate(360deg); opacity: 0%;}
+}
+
 .acessibilityToolsNav{
     display:flex; flex-direction: column; justify-content: center; align-items:flex-start;
 }
