@@ -123,6 +123,20 @@ main>img{
 }
 /* Page 1 one first */
 
+.metrics{
+    display:flex; justify-content: center; align-items: center; gap:20%;
+    text-align: center;
+}
+
+article{
+    background:linear-gradient(to top, #F8FBFF 1%, #BFCAD8 100%);
+    border-radius:20px;
+    padding:4% 9%;
+    width: 350px;
+}
+
+article>h2>strong{color:#d82323}
+
 /* page 2 second two */
 
 .secondPageAsides{
