@@ -183,21 +183,21 @@ article>h2>strong{color:#d82323}
 }
 
 #leftLine{
-    display:flex; position: absolute; left:135px;
+    display:flex; position: absolute; left:185px;
     width: 5px; height: 100px; 
     background-color: black;
 }
 #leftLine2{display:flex; position: absolute; left:0px;
-    width: 125px; height: 50px; 
+    width: 175px; height: 50px; 
     background-color: black;}
 #rightLine{
-    display:flex; position: absolute; right:135px;
+    display:flex; position: absolute; right:185px;
     width: 5px; height: 100px; 
     background-color: black;
 }
 #rightLine2{
     display:flex; position: absolute; right:0px;
-    width: 125px; height: 50px; 
+    width: 175px; height: 50px; 
     background-color: black;
 }
 
@@ -240,6 +240,57 @@ article>h2>strong{color:#d82323}
     96%{transform: rotate(360deg); opacity: 0%;}
     98%{transform: rotate(360deg); opacity: 100%;}
     100%{transform: rotate(360deg); opacity: 0%;}
+}
+
+#robustExemple{
+    display: flex; flex-direction: column; justify-content: center; align-items: flex-start;
+    border:2px solid black;
+    box-shadow: 15px 15px 30px black;
+    border-radius:20px 20px 10px 10px;
+    padding:4% 13%;
+    margin: 3% 5%; 
+    position: relative;
+    background-color: rgb(231, 231, 231);
+    color: black;
+}
+
+#headerMockUp {
+    display:flex; justify-content: space-between; 
+    align-items: center; position: absolute;
+    top:0; left:0;
+    border-radius: 20px 20px 0px 0px;
+    background-color: #2361d1;
+    color: white;
+    width: 100%;
+    padding: 5px 20px;
+}
+
+.headerElements {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.headerBtn {
+  background-color: #e5e5e5;
+  color: black;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 4px;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+.square {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  border: 2.5px solid black;
+  box-sizing: border-box;
 }
 
 .acessibilityToolsNav{
