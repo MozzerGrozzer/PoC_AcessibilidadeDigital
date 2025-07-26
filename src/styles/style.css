@@ -172,6 +172,42 @@ article>h2>strong{color:#d82323}
 
 /* page subjective */
 
+#cleanExemple{
+    display: flex; flex-direction: column; justify-content: center; align-items: center;
+    border-radius:20px;
+    padding:4% 13%;
+    margin: 3% 5%; 
+    position: relative;
+    background-color: wheat;
+    color: black;
+}
+
+#leftLine{
+    display:flex; position: absolute; left:135px;
+    width: 5px; height: 100px; 
+    background-color: black;
+}
+#leftLine2{display:flex; position: absolute; left:0px;
+    width: 125px; height: 50px; 
+    background-color: black;}
+#rightLine{
+    display:flex; position: absolute; right:135px;
+    width: 5px; height: 100px; 
+    background-color: black;
+}
+#rightLine2{
+    display:flex; position: absolute; right:0px;
+    width: 125px; height: 50px; 
+    background-color: black;
+}
+
+#cleanExemple>p{
+    text-align: center;
+    border-right: 5px solid black;
+    border-left: 5px solid black;
+    padding:0px 5%;
+}
+
 .acessibilityToolsNav{
     display:flex; flex-direction: column; justify-content: center; align-items:flex-start;
 }
