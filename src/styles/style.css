@@ -140,7 +140,7 @@ article>h2>strong{color:#d82323}
 /* page 2 second two */
 
 .secondPageAsides{
-    display:flex; flex-direction: row;
+    display:flex; flex-direction: row-reverse;
 }
 
 /* page objective */
